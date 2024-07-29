@@ -1,0 +1,161 @@
+.navar img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10%;
+}
+.cabecera{
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.cabecera{
+    background-size: cover;
+    height: 45vh;
+
+}
+
+.carta-body{
+    background-image: url('../img/fondogym.jpg');
+    background-repeat: no-repeat;
+   background-size:cover;
+}
+
+.container-cartas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-cartas{
+    height: 1000px;
+    width: 1200px;
+}
+
+.carta-edit{
+    background-color: rgba(26, 22, 22, 0.5); /* Color de fondo con transparencia */
+    backdrop-filter: blur(5px); /* Aplicar desenfoque */
+    border-radius: 10px; /* Redondear esquinas (opcional) */
+    padding: 20px; /* Espacio interno (ajusta según necesites) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra (opcional) */
+  }
+
+
+  .contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto centra verticalmente en la pantalla */
+}
+
+.img-comida{
+    width: 200px;
+    height: 170px;
+    border-radius: 30%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+/* targetas */
+
+
+.contenedor-tarjetas {
+    padding: 20px;
+}
+
+.carta-edit {
+    border-radius: 8px;
+    overflow: hidden;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card-body {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.row > .col-md-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer */
+
+footer{
+    background: #000000;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #aaaab3;
+}
+
+.content-foo img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.content-foo a {
+    display: flex;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.contactos h2{
+    text-align: center;
+    color: #fff;
+}
+
+/* deliniado y sombra */
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.text-outline {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
